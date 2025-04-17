@@ -48,7 +48,9 @@ button {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 /* global styles */
+
 .container {
   width: 100%;
   max-width: 320px;
@@ -84,6 +86,7 @@ button {
   padding-top: 96px;
   padding-bottom: 96px;
 }
+
 /* header */
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -179,7 +182,7 @@ button {
 
 /* mobile */
 
-.menu-open-btn {
+.burger-btn {
   background-color: transparent;
   border: none;
   padding: 0;
@@ -231,7 +234,6 @@ button {
 }
 .menu-close-btn:hover,
 .menu-close-btn:focus {
-  background-color: hsl(290, 77%, 71%);
   border: none;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -299,6 +301,7 @@ button {
 .mob-social-icon {
   fill: #ffffff;
 }
+
 /* section-1 */
 .hero {
   background-color: #2e2f42;
@@ -361,6 +364,7 @@ button {
 .hero-btn:focus {
   background-color: #404bbf;
 }
+
 /* section-2 */
 
 .features-list {
@@ -369,9 +373,6 @@ button {
   gap: 72px;
 }
 
-/* .features-item {
-  flex-basis: calc((100% - 72px) / 4);
-} */
 .features-wrap {
   display: none;
 }
@@ -586,6 +587,7 @@ button {
 .footer-social-link:focus {
   background-color: #31d0aa;
 }
+
 /* options */
 .footer-form-wrap {
   width: 100%;
@@ -874,7 +876,7 @@ button {
     max-width: 582px;
   }
 
-  .menu-open-btn {
+  .burger-btn {
     display: none;
   }
 
